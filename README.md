@@ -3,7 +3,7 @@
 
 An auto save extension for text generated with the oobabooga WebUI.
 
-If you've ever lost a great response or forgot the perfect prompt, AutoSave is for you!
+If you've ever lost a great response or forgot the perfect prompt, **AutoSave** is for you!
 
 - 100% offline
 - Saves every prompt and every response to the host
