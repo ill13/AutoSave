@@ -28,4 +28,4 @@ Finally enable the extension in the *session* tab
 
 ### Future:
 
-I may add the generation properties [model, seed, settings] at a later point. 
+I may add the generation properties [*model, seed, settings*] at a later point. 
