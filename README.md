@@ -24,7 +24,7 @@ Now clone this repo:
 
 Finally enable the extension in the *session* tab
 
-![image](https://github.com/ill13/SpeakLocal/assets/10509740/f7f2844d-537d-426a-8110-0ce674e05d11)
+![image](https://github.com/ill13/AutoSave/assets/10509740/92a131fc-7f65-4c62-94e8-85393b859714)
 
 ### Future:
 
