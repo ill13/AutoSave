@@ -43,6 +43,9 @@ def output_modifier(string):
     """
     This function is applied to the model outputs.
     """
+    if not params['activate']:
+        return string
+    
     save_data(string,timestamp=False)
 
     return string
