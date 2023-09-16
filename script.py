@@ -22,10 +22,13 @@ def save_data(string,timestamp=True):
     
     if not Path(file_path).exists():
         Path(file_path).mkdir()
-        
+    
+    model = shared.model_name
+    adapter = getattr(shared.model,'active_adapter','None')    
         
     with open(Path(f'{file_path}/{fname}'), 'a+', encoding='utf-8') as f:
-        f.write(json.dumps({"prompt" : myprompt, "reply":string} , indent=2 ))
+        f.write(json.dumps({"model": model, "adapter":  adapter, "prompt" : myprompt, "reply":string} , indent=2 ))
+    
     return Path(f'{file_path}/{fname}')
 
 def input_modifier(string):
